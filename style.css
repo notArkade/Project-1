@@ -8,3 +8,55 @@
 *::-webkit-scrollbar{
     display: none;
 }
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #402cc0);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    flex: 1;
+    font-size: 18px;
+    height: 50px;
+    margin-right: 16px;
+    background: #ebfffc;
+}
+
+.search button{
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: #ebfffc;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.search button svg {
+    width: 30px;
+    height: 30px;
+}
